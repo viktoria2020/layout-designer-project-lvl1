@@ -5,3 +5,45 @@
 .visual{
     color: #303846;
 }
+header{
+    height: 50px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left:0px;
+    right:0px;
+}
+.bg-w{
+    background-color:white;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+}
+.pad10{
+    padding-left: 10px;
+}
+.sizel{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+.pad30{
+    padding-right: 30px;
+}
+.pad10r{
+    padding-right: 10px;
+}
+main{
+    margin-top: 50px;
+    background-color: turquoise;
+    height: 200px;
+}
+footer{
+    background-color: yellow;
+    height: 200px;
+}
