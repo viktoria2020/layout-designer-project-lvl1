@@ -1,21 +1,20 @@
 /** CSS STYLE **/
-.fs16{
-    font-size: 16px;
-}
+
 .visual{
     color: #303846;
-}
-header{
-    height: 50px;
+    font-size: 16px;
 }
 .fixed{
     position: fixed;
     top: 0;
     left:0px;
     right:0px;
+
+    z-index: 1000;
 }
 .bg-w{
-    background-color:white;
+    background-color: white;
+    height: 50px;
 }
 .flex{
     display: flex;
@@ -38,12 +37,33 @@ header{
 .pad10r{
     padding-right: 10px;
 }
-main{
-    margin-top: 50px;
-    background-color: turquoise;
-    height: 200px;
+.block{
+    position: relative;
+    box-sizing: border-box;
+    height: 500px;
 }
+.block .back{
+    height: 500px;
+    min-width: 100%;
+    z-index: -1;
+}
+.block .filling{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+.bt{
+    color: white;
+    background-color: transparent;
+}
+
 footer{
-    background-color: yellow;
-    height: 200px;
+    background-color: green;
+    height: 600px;
 }
