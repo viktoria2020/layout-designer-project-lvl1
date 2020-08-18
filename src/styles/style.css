@@ -40,6 +40,7 @@
 .block{
     position: relative;
     box-sizing: border-box;
+
     height: 500px;
 }
 .block .back{
@@ -58,46 +59,108 @@
     text-align: center;
     z-index: 2;
 }
+.f-s40{
+    font-size: 40px;
+}
+.mar0{
+    margin: 0;
+}
+.mar-t{
+    margin-top: 30px;
+}
+.sizel2{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
 .bt{
     color: white;
     background-color: transparent;
+    padding: 10px;
+    border-color: white;
 }
 .w1000{
     width: 1000px;
-    height: 500px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-.row-center{
+.center{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+.fs{
+    align-items: flex-start;
+}
+.w250{
+    width: 250px;
+    margin-top: 40px;
+}
+.ai{
     align-items: center;
 }
-.w200{
-    width: 200px;
-    margin-right: 60px;
-}
-.w500{
-    width: 500px;
+.w450{
+    width: 450px;
 }
 .floatr{
     height: 150px;
-    width: 190px;
+    width: 250px;
     float: right;
-    margin-left: 50px;
-}
-.bg{
-    background-color:#f7f7f7;
 }
 .floatl{
     height: 150px;
-    width: 210px;
+    width: 250px;
     float: left;
-    margin-right: 50px;
 }
 .reverse{
     flex-direction: row-reverse;
 }
+.column-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+legend{
+    color: aquamarine;
+}
+.mar20{
+    margin: 20px 0;
+}
+.pad104{
+    padding-right: 104px;
+}
+.w226{
+    width: 226px;
+}
+.nonb{
+    border: none;
+}
+.f-s20{
+    font-size: 20px;
+}
+.borc{
+    border-color: aquamarine;
+}
+.w400{
+    width: 400px;
+}
+.bt2{
+    color: aquamarine;
+    padding: 10px 20px;
+    border-color: aquamarine; 
+}
+.f-start{
+    display: flex;
+    align-self: flex-start;
+}
+.mar-t15{
+    margin-top: 15px;
+}
+.w428{
+    width: 428px;
+}
+
 
 footer{
     background-color: green;
