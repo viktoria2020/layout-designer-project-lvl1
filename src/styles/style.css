@@ -14,6 +14,7 @@
 }
 .bg-w{
     background-color: white;
+
     height: 50px;
 }
 .flex{
@@ -26,19 +27,13 @@
 .ls{
     list-style: none;
 }
-.pad10{
-    padding-left: 10px;
-}
 .sizel{
     width: 40px;
     height: 40px;
-    padding-top: 5px;
+    padding: 5px 20px 0 30px;
 }
-.pad30{
+.indent{
     padding-right: 30px;
-}
-.pad10r{
-    padding-right: 10px;
 }
 .block{
     position: relative;
@@ -49,6 +44,7 @@
 .block .back{
     height: 500px;
     min-width: 100%;
+
     z-index: -1;
 }
 .block .filling{
@@ -60,16 +56,16 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+
     z-index: 2;
 }
-.f-s40{
+.highlight{
     font-size: 40px;
-}
-.mar0{
     margin: 0;
 }
-.mar-t{
-    margin-top: 30px;
+.set{
+    font-size: 20px;
+    margin: 0;
 }
 .sizel2{
     width: 200px;
@@ -81,28 +77,29 @@
     background-color: transparent;
     padding: 10px;
     border-color: white;
+    margin-top: 30px;
 }
-.w1000{
+.center{
+    display: flex;
+    justify-content: space-around;
+
     width: 1000px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-.center{
-    display: flex;
-    justify-content: space-around;
-}
-.fs{
+.align-items-fs{
     align-items: flex-start;
 }
-.w250{
+.block-info{
     width: 250px;
+
     margin-top: 40px;
 }
 .ai{
     align-items: center;
 }
-.w450{
+.block-info2{
     width: 450px;
 }
 .floatr{
@@ -118,16 +115,21 @@
 .reverse{
     flex-direction: row-reverse;
 }
-.column-center{
+.feedback{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-legend{
-    color: aquamarine;
+.card{
+    border-color: aquamarine;
+    width: 400px;
 }
-.mar20{
+.legend{
+    color: aquamarine;
+    font-size: 20px;
+}
+.distance{
     margin: 20px 0;
 }
 .pad104{
@@ -139,15 +141,6 @@ legend{
 .nonb{
     border: none;
 }
-.f-s20{
-    font-size: 20px;
-}
-.borc{
-    border-color: aquamarine;
-}
-.w400{
-    width: 400px;
-}
 .bt2{
     color: aquamarine;
     padding: 10px 20px;
@@ -157,19 +150,22 @@ legend{
 .f-start{
     display: flex;
     align-self: flex-start;
+    width: 428px;
+    margin-top: 15px;
 }
 .mar-t15{
     margin-top: 15px;
 }
-.w428{
-    width: 428px;
-}
-footer{
+.footer{
     background-color: #303846;
-    height: 200px;
     color: white;
+    height: 200px;
+    width: 100%;
 }
-.w{
-    width: 200px;
+.wrap{
+    width: 230px;
     flex-wrap: wrap;
+}
+.pad0{
+    padding-left: 0;
 }
