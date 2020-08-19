@@ -61,20 +61,24 @@
 }
 .highlight{
     font-size: 40px;
+
     margin: 0;
 }
 .set{
     font-size: 20px;
+
     margin: 0;
 }
 .sizel2{
     width: 200px;
     height: 200px;
+
     margin-bottom: 20px;
 }
 .bt{
     color: white;
     background-color: transparent;
+
     padding: 10px;
     border-color: white;
     margin-top: 30px;
@@ -85,6 +89,7 @@
 
     width: 1000px;
     height: 300px;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,11 +164,13 @@
 .footer{
     background-color: #303846;
     color: white;
+
     height: 200px;
     width: 100%;
 }
 .wrap{
     width: 230px;
+    
     flex-wrap: wrap;
 }
 .pad0{
