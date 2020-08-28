@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="visual">
+<body>
     <header>
         <section class="fixed bg-w flex">
             <div class="row">
@@ -18,23 +18,22 @@
             <nav>
                 <ul class="row ls">
                     <li class="indent"><a href="#advantages" class="not">Преимущества</a></li>
-                    <li class="indent"><a href="#about LCD" class="not">О ЖК «Лунное море»</a></li>
-                    <li><a href="#places for rest" class="not">Места для отдыха</a></li>
+                    <li class="indent"><a href="#aboutlcd" class="not">О ЖК «Лунное море»</a></li>
+                    <li><a href="#places-for-rest" class="not">Места для отдыха</a></li>
                 </ul>
             </nav>
         </section>
-        <div1 class="block">
-            <div class="filling">
-                <img src="images/logo.svg" alt="Логотип" class="sizel2">
-                <p class="highlight">ЖК «Лунное море»</p>
-                <p class="set">Место, откуда не хочется улетать</p>
-                <form action="#feedback">
-                    <button class="bt">Забронировать</button>
-                </form>
-            </div>
-            <img src="images/banner.png" alt="Баннер" class="back">
-        </div1>
     </header>
+    <div class="block back">
+        <div class="filling">
+            <img src="images/logo.svg" alt="Логотип" class="sizel2">
+            <h1 class="highlight">ЖК «Лунное море»</h1>
+            <p class="set">Место, откуда не хочется улетать</p>
+            <a href="#feedback">
+                <button class="bt">Забронировать</button>
+            </a>
+        </div>
+    </div>
     <main>
         <section id="advantages" class="center pd60 h200">
             <div class="block-info">
@@ -50,15 +49,17 @@
                 <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
             </div>
         </section>
-        <section id="about LCD" class="bg-f7 center ai pd60">
-            <div class="block-info2">
+        <div class="bg-f7">
+            <section id="aboutlcd" class="center ai pd60">
+             <div class="block-info2">
                 <h2>О ЖК «Лунное море</h2>
                 <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                 <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-            </div>
-            <img src="images/moon-1.jpg" alt="Картинка-1" class="floatr">
-        </section>
-        <section id="places for rest" class="center reverse ai pd60">
+             </div>
+             <img src="images/moon-1.jpg" alt="Картинка-1" class="floatr">
+            </section>
+        </div>
+        <section id="places-for-rest" class="center reverse ai pd60">
             <div class="block-info2">
                 <h2>Места для отдыха</h2>
                 <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -66,28 +67,29 @@
             </div>
             <img src="images/moon-2.jpg" alt="Картинка-2" class="floatl">
             </section>
-        <section id="feedback" class="feedback pd60 bg-f7">
-            <h2>Оставьте заявку сегодня!</h2>
-            <form>
-                <fieldset class="card">
-                    <legend class="legend"><b>Параметры квартиры</b></legend>
-                        <div class="row distance">
-                            <label class="pd20 bold">Количество комнат:</label>
-                            <select class="w200 nonb">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                            </select>
-                        </div>
-                        <div class="row distance">
-                            <label class="pad100 bold">Отделка:</label>
-                            <select class="w200 nonb">
-                                <option>Квартиры без отделки</option>
-                                <option>«Предчистовая» отделка квартир</option>
-                                <option>«Чистовая» отделка квартиры</option>
-                            </select>
-                        </div>
-                </fieldset>
+        <div class="bg-f7">
+            <section id="feedback" class="feedback pd60 bg-f7">
+                <h2>Оставьте заявку сегодня!</h2>
+                <form>
+                    <fieldset class="card">
+                        <legend class="legend"><b>Параметры квартиры</b></legend>
+                            <div class="row distance">
+                                <label class="pd20 bold">Количество комнат:</label>
+                                <select class="w200 nonb">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                            <div class="row distance">
+                             <label class="pad100 bold">Отделка:</label>
+                                <select class="w200 nonb">
+                                    <option>Квартиры без отделки</option>
+                                    <option>«Предчистовая» отделка квартир</option>
+                                    <option>«Чистовая» отделка квартиры</option>
+                                </select>
+                            </div>
+                    </fieldset>
                 </form>
                 <form>
                     <fieldset class="card mar-t15">
@@ -112,6 +114,7 @@
                     </form>
                 </div>
             </section>
+        </div>
     </main>
     <footer class="center ai footer pd60">
         <div class="row wrap">

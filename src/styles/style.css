@@ -1,6 +1,6 @@
 /** CSS STYLE **/
 
-.visual{
+body{
     color: #303846;
     font-size: 16px;
     margin: 0;
@@ -48,31 +48,26 @@
     padding-right: 20px;
 }
 .block{
-    position: relative;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
     width: 1000px;
     height: 800px;
 
     padding: 60px 0;
 }
-.block .back{
-    background-size: cover;
+.back{
+    background-image: url(images/banner.png);
+    background-color: darkblue;
     width: 100%;
-    height: 800px;
-
-    z-index: -1;
 }
-.block .filling{
-    position: absolute;
-    top:50%;
+.filling{
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    color: white;
     text-align: center;
-
-    z-index: 2;
+    color: white;
 }
 .highlight{
     font-size: 3em;
@@ -126,6 +121,7 @@ h2{
 }
 .bg-f7{
     background-color: #f7f7f7;
+    background-size: cover;
 }
 .pd60{
     padding: 60px 0;
