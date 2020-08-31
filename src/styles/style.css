@@ -56,7 +56,7 @@ body{
     padding: 60px 0;
 }
 .back{
-    background-image: url(images/banner.png);
+    background-image: url(../images/banner.png);
     background-color: darkblue;
     width: 100%;
 }
@@ -78,6 +78,7 @@ body{
     font-size: 20px;
 
     margin: 0;
+    margin-bottom: 20px;
 }
 .sizel2{
     width: 300px;
@@ -87,31 +88,25 @@ body{
 }
 .bt{
     color: white;
-    background-color: transparent;
 
     font-size: 1em;
     font-weight: bold;
 
-    border-radius: 10px;
-    border-color: white;
-
     padding: 10px;
-    margin-top: 15px;
+
+    border: 1px solid white ;
+    border-radius: 10px;
 }
 .center{
     display: flex;
     justify-content: space-around;
 
     width: 1000px;
-    height: 300px;
 
     margin-left: auto;
     margin-right: auto;
 }
-.h200{
-    height: 200px;
-}
-.block-info{
+.w-30{
     width: 30%;
 }
 h2{
@@ -119,7 +114,7 @@ h2{
     margin-top: 0;
     margin-bottom: 0.5em;
 }
-.bg-f7{
+.bg-gray{
     background-color: #f7f7f7;
     background-size: cover;
 }
@@ -129,16 +124,16 @@ h2{
 .ai{
     align-items: center;
 }
-.block-info2{
+.w-45{
     width: 45%;
 }
-.floatr{
+.flexr{
     float: right;
 
     height: 200px;
     width: 30%;
 }
-.floatl{
+.flexl{
     float: left;
 
     height: 200px;
@@ -162,6 +157,9 @@ h2{
 
     width: 400px;
 }
+.fs{
+    font-size: 14px;
+}
 .legend{
     color: #09d3ac;
     font-size: 20px;
@@ -172,14 +170,14 @@ h2{
 .bold{
     font-weight: bold;
 }
-.pad100{
-    padding-right: 100px;
+.pad126{
+    padding-right: 126px;
 }
-.w200{
-    width: 200px;
+.w180{
+    width: 180px;
 }
-.pd20{
-    padding-right: 15px;
+.pd40{
+    padding-right: 50px;
 }
 .nonb{
     border: none;
@@ -187,6 +185,9 @@ h2{
 .bt2{
     color: #09d3ac;
     border-color: #09d3ac;
+
+    margin-top: 15px;
+    padding: 10px 35px;
 }
 .f-start{
     display: flex;
@@ -201,7 +202,6 @@ h2{
     background-color: #303846;
     color: white;
 
-    height: 200px;
     width: 100%;
 }
 .wrap{
