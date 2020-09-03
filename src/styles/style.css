@@ -20,6 +20,8 @@ body{
 
     font-weight: bold;
 
+    box-sizing: content-box;
+
     height: 60px;
     padding: 5px 20px;
 }
@@ -51,25 +53,20 @@ body{
     box-sizing: content-box;
 
     width: 1000px;
-    height: 800px;
 
     padding: 60px 0;
 }
 .back{
     background-image: url(../images/banner.png);
     background-color: darkblue;
+    background-size: cover;
     width: 100%;
 }
 .filling{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
     text-align: center;
     color: white;
 }
-.highlight{
+h1{
     font-size: 3em;
 
     margin: 0;
@@ -84,10 +81,11 @@ body{
     width: 300px;
     height: 300px;
 
-    margin-bottom: 20px;
+    padding-top: 80px;
 }
 .bt{
     color: white;
+    background-color: transparent;
 
     font-size: 1em;
     font-weight: bold;
@@ -127,18 +125,6 @@ h2{
 .w-45{
     width: 45%;
 }
-.flexr{
-    float: right;
-
-    height: 200px;
-    width: 30%;
-}
-.flexl{
-    float: left;
-
-    height: 200px;
-    width: 30%;
-}
 .reverse{
     flex-direction: row-reverse;
 }
@@ -165,22 +151,26 @@ h2{
     font-size: 20px;
 }
 .distance{
-    margin: 20px 0;
+    margin: 20px 10px;
+}
+.w-180{
+    width: 180px;
+
 }
 .bold{
     font-weight: bold;
 }
-.pad126{
-    padding-right: 126px;
+.w-200{
+    width: 200px;
 }
-.w180{
-    width: 180px;
+.backcolor-white{
+    background-color: white;
 }
-.pd40{
-    padding-right: 50px;
+.w-100{
+    width: 100px;
 }
-.nonb{
-    border: none;
+.w-270{
+    width: 270px;
 }
 .bt2{
     color: #09d3ac;
