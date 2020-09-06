@@ -9,30 +9,31 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="fixed bg-w flex">
+    <header class="fixed header flex">
         <div class="row">
-            <img src="images/logo.svg" alt="Логотип" class="sizel">
+            <img src="images/logo.svg" alt="Логотип" class="sizel pad-r-20">
             <p>Лунное море</p>
         </div>
         <nav>
             <ul class="row ls">
-                <li class="indent"><a href="#advantages" class="not">Преимущества</a></li>
-                <li class="indent"><a href="#aboutlcd" class="not">О ЖК «Лунное море»</a></li>
+                <li class="pad-r-20"><a href="#advantages" class="not">Преимущества</a></li>
+                <li class="pad-r-20"><a href="#aboutlcd" class="not">О ЖК «Лунное море»</a></li>
                 <li><a href="#places-for-rest" class="not">Места для отдыха</a></li>
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="block back filling">
-            <img src="images/logo.svg" alt="Логотип" class="sizel2">
-            <h1>ЖК «Лунное море»</h1>
-            <p class="set">Место, откуда не хочется улетать</p>
-            <a href="#feedback" class="bt not">Забронировать</a>
-        </div>
-    </section>
     <main>
+        <div class="indentation"></div>
+        <section>
+            <div class="block back filling">
+                <img src="images/logo.svg" alt="Логотип" class="sizel2">
+                <h1>ЖК «Лунное море»</h1>
+                <p class="set">Место, откуда не хочется улетать</p>
+                <a href="#feedback" class="bt not">Забронировать</a>
+            </div>
+        </section>
         <section id="advantages">
-            <div class="center pd60">
+            <div class="alignment pd60">
                 <div class="w-30">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -47,8 +48,8 @@
                 </div>
             </div>
         </section>
-        <section id="aboutlcd">
-            <div class="bg-gray center ai pd60">
+        <section id="aboutlcd" class="bg-gray">
+            <div class="alignment ai-center pd60">
                 <div class="w-45">
                     <h2>О ЖК «Лунное море</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -58,7 +59,7 @@
             </div>  
         </section>
         <section id="places-for-rest">
-            <div class="center reverse ai pd60">
+            <div class="alignment flex-row-reverse ai-center pd60">
                 <div class="w-45">
                     <h2>Места для отдыха</h2>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -67,8 +68,8 @@
                 <img src="images/moon-2.jpg" alt="А тем временем, где-то на Луне, отдыхает космонавт с бутылочкой пива." class="w-30">
             </div>
         </section>
-        <section id="feedback">
-            <div class="bg-gray feedback pd60 fs">
+        <section id="feedback" class="bg-gray">
+            <div class="feedback pd60 fs">
                 <h2>Оставьте заявку сегодня!</h2>
                 <form>
                     <fieldset class="card">
@@ -119,18 +120,18 @@
                     </fieldset>
                 </form>
                 <div>
-                    <form class="f-start card">
+                    <form class="knob card">
                         <button class="bt bt2"><b>Отправить</b></button>
                     </form>
                 </div>
             </div>
         </section>     
     </main>
-    <footer class="center ai footer pd60">
-        <div class="row wrap">
-            <img src="images/logo.svg" alt="Логотип" class="sizel pad0">
+    <footer class="alignment ai-center footer pd60">
+        <div class="row carry">
+            <img src="images/logo.svg" alt="Логотип" class="sizel pad0 pad-r-20">
             <h3>Лунное море</h3>
-            <p><small>&copy</small> 2032 год</p>
+            <p><small>&copy;</small> 2032 год</p>
         </div>
         <div>
             <h3>Проектная документация</h3>
