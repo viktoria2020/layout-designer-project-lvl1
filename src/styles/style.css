@@ -32,14 +32,14 @@ body{
 .row{
     display: flex;
 }
-.ls{
+.list-style{
     list-style: none;
 }
-.not{
+.text-decor{
     text-decoration: none;
     color:#303846;
 }
-.sizel{
+.logol{
     align-self: center;
 
     width: 40px;
@@ -48,17 +48,16 @@ body{
 .pad-r-20{
     padding-right: 20px;
 }
-.indentation{
-    width: 100%;
-    height: 60px;
+.mar-t60{
+    margin-top: 60px;
 }
-.block{
+.main-block{
     box-sizing: content-box;
 
     width: 1000px;
     padding: 120px 0;
 }
-.back{
+.bg-image{
     background-image: url(../images/banner.png);
     background-color: darkblue;
     background-size: cover;
@@ -73,29 +72,32 @@ h1{
 
     margin: 0;
 }
-.set{
+.addition-main-bloc{
     font-size: 20px;
 
     margin: 0;
     margin-bottom: 20px;
 }
-.sizel2{
+.logo2{
     width: 300px;
     height: 300px;
 }
-.bt{
-    color: white;
-    background-color: transparent;
-
+.bt-text-decor{
     font-size: 1em;
     font-weight: bold;
+}
+.btn{
+    background-color: transparent;
 
     padding: 10px;
 
     border: 1px solid white ;
     border-radius: 10px;
 }
-.alignment{
+.color-w{
+    color: white;
+}
+.alignment-bloc-info{
     display: flex;
     justify-content: space-around;
 
@@ -116,7 +118,7 @@ h2{
     background-color: #f7f7f7;
     background-size: cover;
 }
-.pd60{
+.pd-60{
     padding: 60px 0;
 }
 .ai-center{
@@ -138,24 +140,23 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-.card{
+.fieldset{
     border-color: #09d3ac;
 
     width: 400px;
 }
-.fs{
+.font-size-14{
     font-size: 14px;
 }
 .legend{
     color: #09d3ac;
     font-size: 20px;
 }
-.distance{
+.mar-20-10{
     margin: 20px 10px;
 }
 .w-180{
     width: 180px;
-
 }
 .bold{
     font-weight: bold;
@@ -163,7 +164,7 @@ h2{
 .w-200{
     width: 200px;
 }
-.backcolor-white{
+.bg-white{
     background-color: white;
 }
 .w-100{
@@ -172,14 +173,15 @@ h2{
 .w-270{
     width: 270px;
 }
-.bt2{
+.btn-green{
     color: #09d3ac;
     border-color: #09d3ac;
-
+}
+.btn-indents{
     margin-top: 15px;
     padding: 10px 35px;
 }
-.knob{
+.btn-knob{
     display: flex;
     align-self: flex-start;
 
@@ -194,12 +196,12 @@ h2{
 
     width: 100%;
 }
-.carry{
+.first-column{
     flex-wrap: wrap;
 
     width: 230px;
 }
-.pad0{
+.pad-0{
     padding-left: 0;
 }
 h3{
