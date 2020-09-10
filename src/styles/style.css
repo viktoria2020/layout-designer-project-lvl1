@@ -63,13 +63,13 @@ body{
     box-sizing: border-box;
 
     width: 1000px;
+
     padding: 120px 0;
 }
 .bg-image{
     background-image: url(../images/banner.png);
     background-color: var(--secondary-color);
     background-size: cover;
-    width: 100%;
 }
 .text-center{
     text-align: center;
