@@ -59,12 +59,11 @@ body{
 .header-indent{
     margin-top: var(--cap-height);
 }
-.main-block{
+.box-border{
     box-sizing: border-box;
-
-    width: 1000px;
-
-    padding: 120px 0;
+}
+.pad-100{
+    padding: 100px 0;
 }
 .bg-image{
     background-image: url(../images/banner.png);
@@ -105,14 +104,16 @@ h1{
 .color-w{
     color: var(--primary-color);
 }
-.alignment{
+.container{
     display: flex;
-    justify-content: space-around;
 
     width: 1000px;
 
     margin-left: auto;
     margin-right: auto;
+}
+.jus-cont-saround{
+    justify-content: space-around;
 }
 .w-30{
     width: 30%;
@@ -199,14 +200,6 @@ h2{
 }
 .text-w{
     color: var(--primary-color);
-}
-.first-column{
-    flex-wrap: wrap;
-
-    width: 230px;
-}
-.pad-0{
-    padding-left: 0;
 }
 h3{
     font-size: 1em;
